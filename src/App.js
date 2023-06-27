@@ -70,7 +70,7 @@ const nav = document.getElementById('nav')
                 <div className="container footcontainer">
                     <div className="socials">
                         <NavLink to="https://wa.me/message/HXDJ43QLJAMAK1"><span className="iconsocial"><FaWhatsapp  size={32} color="white"/></span></NavLink>
-                        <NavLink to="https://t.me/+8562099234418"><span className="iconsocial"><FaTelegram  color="white" size={32}/></span></NavLink>
+                        <NavLink to="https://t.me/+37128785330"><span className="iconsocial"><FaTelegram  color="white" size={32}/></span></NavLink>
                         <NavLink to="https://rb.gy/2xptg"><span className="iconsocial"><FaInstagram  size={32} color="white"/></span></NavLink>
                         {/* <NavLink to="#"><span className="iconsocial"><FaTwitter  size={32} color="white"/></span></NavLink> */}
                     </div>
