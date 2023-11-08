@@ -150,6 +150,11 @@ const App = () => {
                       <FaInstagram size={32} color="#12132A" />
                     </span>
                   </NavLink>
+                  <NavLink to="mailto:Cyberkeelv_recovery@cyberservices.com">
+                    <span className="iconsocial">
+                      <FaEnvelope size={32} color="#12132A" />
+                    </span>
+                  </NavLink>
                   {/* <NavLink to="#"><span className="iconsocial"><FaTwitter  size={32} color="white"/></span></NavLink> */}
                 </span>
               </div>
@@ -186,15 +191,19 @@ const App = () => {
               <div className="contactus">
                 <h2>Get in Touch</h2>
                 <NavLink className="contactMail" to="#">
-                  <FaMapMarkerAlt size={15} color="white" />
-                  <p>Sytinskiy Lane, 5 с2, Moscow Russia 123104</p>
+                  <FaMapMarkerAlt size={15} color="black" />
+                  <p style={{ color: "black" }}>
+                    Sytinskiy Lane, 5 с2, Moscow Russia 123104
+                  </p>
                 </NavLink>
                 <NavLink
                   className="contactMail"
                   to="mailto:Cyberkeelv_recovery@cyberservices.com"
                 >
-                  <FaEnvelope size={15} color="white" />
-                  <p>Cyberkeelv_recovery@cyberservices.com</p>
+                  <FaEnvelope size={15} color="black" />
+                  <p style={{ color: "black" }}>
+                    Cyberkeelv_recovery@cyberservices.com
+                  </p>
                 </NavLink>
                 <button>
                   <NavLink to="/contact">Contact</NavLink>

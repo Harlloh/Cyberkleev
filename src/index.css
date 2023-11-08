@@ -596,10 +596,11 @@ header {
 @media screen and (max-width: 890px) {
   .footcontainer {
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     /* justify-content: center; */
     /* background-color: red; */
     gap: 3rem;
+    margin: 0;
   }
 }
 .footcontainer .contactus {
