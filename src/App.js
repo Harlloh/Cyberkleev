@@ -4,6 +4,7 @@ import {
   NavLink,
   Route,
   useLocation,
+  Link,
 } from "react-router-dom";
 import Home from "./components/home";
 import About from "./components/cryptoservices";
@@ -29,6 +30,7 @@ import Cryptoservices from "./components/cryptoservices";
 import { useState } from "react";
 import Preload from "./components/preload";
 import { useEffect } from "react";
+import FAQ from "./components/faq";
 
 const App = () => {
   const [showNav, setShowNav] = useState(false);
@@ -58,7 +60,7 @@ const App = () => {
               <div className="logo">
                 <NavLink to="/">
                   <img src={Icon} alt="" />
-                  <h1>CYBERKEELV</h1>
+                  <h1>CyberHelp</h1>
                 </NavLink>
               </div>
               <span className="ham">
@@ -81,7 +83,7 @@ const App = () => {
                     </NavLink>
                   </li>
                   <li>
-                    <a onClick={handleLinkClick} href="#about">
+                    <a onClick={handleLinkClick} href="#goalsect">
                       {" "}
                       About us
                     </a>
@@ -93,7 +95,12 @@ const App = () => {
                   </li>
                   <li>
                     <NavLink onClick={handleLinkClick} to="/blogs">
-                      News
+                      Blogs
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink onClick={handleLinkClick} to="/faq">
+                      FAQs
                     </NavLink>
                   </li>
                   <li>
@@ -107,50 +114,97 @@ const App = () => {
               </nav>
             </div>
           </header>
+
           <Routes>
             <Route path="/" element={<Home />}></Route>
             <Route path="/crypto-services" element={<Cryptoservices />}></Route>
             <Route path="/blogs" element={<Blog />}></Route>
             <Route path="/services" element={<Services />}></Route>
             <Route path="/contact" element={<Contact />}></Route>
+            <Route path="/faq" element={<FAQ />}></Route>
           </Routes>
           <footer id="about">
+            {/* <span className="hs">hs</span> */}
             <div className="container footcontainer">
               <div className="socials">
-                <NavLink to="https://api.whatsapp.com/send?phone=8562097916145&text=%20">
-                  <span className="iconsocial">
-                    <FaWhatsapp size={32} color="white" />
-                  </span>
-                </NavLink>
-                <NavLink to="https://t.me/+79216482743">
-                  <span className="iconsocial">
-                    <FaTelegram color="white" size={32} />
-                  </span>
-                </NavLink>
-                <NavLink to="https://rb.gy/2xptg">
-                  <span className="iconsocial">
-                    <FaInstagram size={32} color="white" />
-                  </span>
-                </NavLink>
-                {/* <NavLink to="#"><span className="iconsocial"><FaTwitter  size={32} color="white"/></span></NavLink> */}
+                <div className="logo">
+                  <NavLink to="/">
+                    <img src={Icon} alt="" />
+                    <h1 className="footheader">CyberHelp</h1>
+                  </NavLink>
+                </div>
+                <p>“The one who owns the information, owns the world!”</p>
+                <span>
+                  <NavLink to="https://api.whatsapp.com/send?phone=8562097916145&text=%20">
+                    <span className="iconsocial">
+                      <FaWhatsapp size={32} color="#12132A" />
+                    </span>
+                  </NavLink>
+                  <NavLink to="https://t.me/+79216482743">
+                    <span className="iconsocial">
+                      <FaTelegram color="#12132A" size={32} />
+                    </span>
+                  </NavLink>
+                  <NavLink to="https://rb.gy/2xptg">
+                    <span className="iconsocial">
+                      <FaInstagram size={32} color="#12132A" />
+                    </span>
+                  </NavLink>
+                  {/* <NavLink to="#"><span className="iconsocial"><FaTwitter  size={32} color="white"/></span></NavLink> */}
+                </span>
               </div>
-              <cite>“The one who owns the information, owns the world!”</cite>
-              <NavLink className="contactMail" to="#">
-                <FaMapMarkerAlt size={15} color="white" />
-                <p>Sytinskiy Lane, 5 с2, Moscow Russia 123104</p>
-              </NavLink>
-              <NavLink
-                className="contactMail"
-                to="mailto:Cyberkeelv_recovery@cyberservices.com"
-              >
-                <FaEnvelope size={15} color="white" />
-                <p>Cyberkeelv_recovery@cyberservices.com</p>
-              </NavLink>
-              <div className="copyright">
-                <p>Cyberkeelv_recovery© Copyright 2023. All rights reserved</p>
+              <div className="quickLinks">
+                <h2>Quick Links</h2>
+                <ul>
+                  <li>
+                    <NavLink to="/">Home</NavLink>
+                  </li>
+                  <li>
+                    <Link href="#about"> About us</Link>
+                  </li>
+                  <li>
+                    <NavLink to="/services">Services</NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/blogs">Blogs</NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/faq">FAQs</NavLink>
+                  </li>
+                </ul>
+              </div>
+              <div className="ourservices">
+                <h2>Our Services</h2>
+                <ul>
+                  <li>Crypto Services</li>
+                  <li>Hacking and Blackmail</li>
+                  <li>Wallet Recovery</li>
+                  <li>Asset Recovery</li>
+                  <li>Asset Consultation</li>
+                </ul>
+              </div>
+              <div className="contactus">
+                <h2>Get in Touch</h2>
+                <NavLink className="contactMail" to="#">
+                  <FaMapMarkerAlt size={15} color="white" />
+                  <p>Sytinskiy Lane, 5 с2, Moscow Russia 123104</p>
+                </NavLink>
+                <NavLink
+                  className="contactMail"
+                  to="mailto:Cyberkeelv_recovery@cyberservices.com"
+                >
+                  <FaEnvelope size={15} color="white" />
+                  <p>Cyberkeelv_recovery@cyberservices.com</p>
+                </NavLink>
+                <button>
+                  <NavLink to="/contact">Contact</NavLink>
+                </button>
               </div>
             </div>
           </footer>
+          <div className="copyright">
+            <p>CyberHelp_recovery© Copyright 2023. All rights reserved</p>
+          </div>
         </div>
       )}
     </BrowserRouter>
