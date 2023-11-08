@@ -903,9 +903,14 @@ footer {
   .ham {
     display: flex;
     cursor: pointer;
+    z-index: 20;
+  }
+  body {
+    overflow-x: hidden;
   }
   .cancel {
     transition: all 0.5s;
+    z-index: 2;
   }
   .ham:hover {
     color: red;
