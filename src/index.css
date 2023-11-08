@@ -905,6 +905,9 @@ footer {
     cursor: pointer;
     z-index: 20;
   }
+  .heroimage {
+    width: 20rem;
+  }
   body {
     overflow-x: hidden;
   }
