@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink, Navigate, useNavigate } from "react-router-dom";
 // import Icon from "../assets/icon.svg";
 import weigh from "../assets/weigh.png";
 import { AiOutlineCheck } from "react-icons/ai";
@@ -113,6 +113,12 @@ function Home() {
     setShouldAnimate(true);
   }, []);
 
+  const navigate = useNavigate();
+
+  const handleNavigate = (path) => {
+    console.log("hello");
+    navigate(path);
+  };
   return (
     <div>
       <section className="herosect">
@@ -139,10 +145,14 @@ function Home() {
             </p>
             <div className="herobu">
               <button id="herobutton">
-                <NavLink to="#testimonials">Testimonial</NavLink>
+                <a href="#testimonials">Testimonial</a>
               </button>
-              <button id="herobutton" className="herobtn">
-                <NavLink to="/services">Get Started</NavLink>
+              <button
+                id="herobutton"
+                className="herobtn"
+                onClick={() => handleNavigate("/services")}
+              >
+                Get Started
               </button>
             </div>
           </div>
