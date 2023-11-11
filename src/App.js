@@ -203,7 +203,7 @@ const App = () => {
                   to="mailto:Cyberhelponlinee@gmail.com"
                 >
                   <FaEnvelope size={15} color="black" />
-                  <p style={{ color: "black" }}>Cyberhelponlinee@gmail.com</p>
+                  <p style={{ color: "black" }}>support@cyberhelponline.org</p>
                 </NavLink>
                 <button>
                   <NavLink to="/contact">Contact</NavLink>
