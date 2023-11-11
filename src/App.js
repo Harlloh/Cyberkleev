@@ -20,6 +20,7 @@ import {
   FaMapMarkerAlt,
   FaPhone,
   FaPhoneAlt,
+  FaShieldAlt,
   FaTelegram,
   FaTimes,
   FaTwitter,
@@ -59,8 +60,9 @@ const App = () => {
             <div className="container headersect">
               <div className="logo">
                 <NavLink to="/">
-                  <img src={Icon} alt="" />
-                  <h1>CyberHelp</h1>
+                  {/* <img src={Icon} alt="" /> */}
+                  <FaShieldAlt color="#AD60A9" size="2rem" />
+                  <h1>Cyberhelp</h1>
                 </NavLink>
               </div>
               <span className="ham">
@@ -129,8 +131,8 @@ const App = () => {
               <div className="socials">
                 <div className="logo">
                   <NavLink to="/">
-                    <img src={Icon} alt="" />
-                    <h1 className="footheader">CyberHelp</h1>
+                    <FaShieldAlt color="#AD60A9" size="2rem" />
+                    <h1 className="footheader">Cyberhelp</h1>
                   </NavLink>
                 </div>
                 <p>“The one who owns the information, owns the world!”</p>
@@ -150,7 +152,7 @@ const App = () => {
                       <FaInstagram size={32} color="#12132A" />
                     </span>
                   </NavLink>
-                  <NavLink to="mailto:Cyberkeelv_recovery@cyberservices.com">
+                  <NavLink to="mailto:Cyberhelponlinee@gmail.com">
                     <span className="iconsocial">
                       <FaEnvelope size={32} color="#12132A" />
                     </span>
@@ -198,12 +200,10 @@ const App = () => {
                 </NavLink>
                 <NavLink
                   className="contactMail"
-                  to="mailto:Cyberkeelv_recovery@cyberservices.com"
+                  to="mailto:Cyberhelponlinee@gmail.com"
                 >
                   <FaEnvelope size={15} color="black" />
-                  <p style={{ color: "black" }}>
-                    Cyberkeelv_recovery@cyberservices.com
-                  </p>
+                  <p style={{ color: "black" }}>Cyberhelponlinee@gmail.com</p>
                 </NavLink>
                 <button>
                   <NavLink to="/contact">Contact</NavLink>

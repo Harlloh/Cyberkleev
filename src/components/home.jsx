@@ -128,15 +128,7 @@ function Home() {
             <h1 className={`herohead ${shouldAnimate ? "animate" : ""}`}>
               Recover And Invest Your Crypto Assets
             </h1>
-            {/* <p className={`heroparagraph ${shouldAnimate ? "animate" : ""}`}>
-            We offer a range of services including cryptocurrency mining,
-            hacking, and asset recovery for victims of scams. Our team of
-            experienced and skilled professionals can assist you in reclaiming
-            your stolen assets. Additionally, we provide guidance on
-            cryptocurrency investment strategies to help you maximize your
-            returns. If you are in need of our expertise, please do not hesitate
-            to contact us for assistance.
-          </p> */}
+
             <p className={`heroparagraph ${shouldAnimate ? "animate" : ""}`}>
               We provide cryptocurrency services, including mining, hacking, and
               asset recovery for scam victims. Our experienced team helps you

@@ -261,6 +261,7 @@ header {
   height: fit-content;
   width: 100vw;
   top: 0px;
+  padding: 0.61rem 0;
   z-index: 2;
   left: 0px;
   right: 0px;
@@ -281,10 +282,11 @@ header {
   height: 2rem;
 } */
 .logo a h1 {
-  font-weight: 800;
+  font-weight: 600;
   color: rgb(255, 255, 255);
   /* color: black; */
-  font-size: 18px;
+  font-size: 2rem;
+  font-family: Inter;
 }
 .headersect nav ul {
   display: flex;
