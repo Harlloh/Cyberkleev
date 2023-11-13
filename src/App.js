@@ -147,7 +147,7 @@ const App = () => {
                       <FaTelegram color="#12132A" size={32} />
                     </span>
                   </NavLink>
-                  <NavLink to="https://instagram.com/cyberkeelv?igshid=MmlzYWVINDQ5Yg==">
+                  <NavLink to="https://instagram.com/cyber_helponline">
                     <span className="iconsocial">
                       <FaInstagram size={32} color="#12132A" />
                     </span>
