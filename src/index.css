@@ -327,7 +327,8 @@ header {
 }
 
 .herosect {
-  box-shadow: 0px 10px 5px red;
+  position: relative;
+  z-index: 1;
 
   /* height: 100vh; */
   /* background-image:linear-gradient(rgba(0, 0, 0, 0.672),rgba(0, 0, 0, 0.722)), url(./assets/bgc.jpg); */
@@ -381,6 +382,9 @@ header {
   text-align: start;
   position: relative;
 }
+html {
+  overflow-x: hidden;
+}
 .hs {
   width: 31.5rem;
   height: 21.5rem;
@@ -399,7 +403,7 @@ header {
   width: fit-content;
 }
 .partners {
-  background: #162446;
+  background: #1d419d;
   padding: 1.5rem 0;
   gap: 1rem;
 }
@@ -908,7 +912,7 @@ footer {
   .ham {
     display: flex;
     cursor: pointer;
-    z-index: 20;
+    z-index: 200;
   }
   .heroimage {
     width: 20rem;
@@ -942,7 +946,7 @@ footer {
     /* border: 2px solid #022a3c; */
     width: 100vw;
     height: 100vh;
-    z-index: 2;
+    /* z-index: 2; */
     top: 120%;
     bottom: 0;
     left: 0;
@@ -956,7 +960,7 @@ footer {
   nav::before {
     content: "";
     position: inherit;
-    z-index: -2;
+    /* z-index: inherit; */
     top: 0;
     left: 0;
     width: 100%;
@@ -1001,7 +1005,7 @@ footer {
     line-height: 1.5rem;
   }
   .lifePartners .partners-img img {
-    width: 17%;
+    width: 20%;
   }
   .herosect {
     background-size: contain;
