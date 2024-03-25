@@ -192,7 +192,7 @@ function Contact() {
             disabled={loading}
             className={loading && "disabled"}
           >
-            Send Complaint
+            {loading ? "sending..." : "Send Complaint"}
           </button>
         </form>
       </div>
