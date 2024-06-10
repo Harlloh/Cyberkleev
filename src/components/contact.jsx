@@ -36,6 +36,7 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setLoading(true);
     emailjs.sendForm(
       'service_0zft1aa',
       // 'service_stxwd6g',
@@ -48,8 +49,12 @@ function Contact() {
       if (res.text === 'OK') {
         setFormData(initialFormData); toast.success('Your message as been sent succefully')
       }
+      setLoading(false)
 
-    }).catch((err) => toast.error('Message sent failed'));
+    }).catch((err) => {
+      toast.error('Message sent failed')
+      setLoading(false)
+    });
   };
 
   // const handleSubmit = async (e) => {
