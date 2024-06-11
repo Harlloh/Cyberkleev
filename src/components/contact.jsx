@@ -34,66 +34,66 @@ function Contact() {
     complaint: "",
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setLoading(true);
-    emailjs.sendForm(
-      'service_0zft1aa',
-      // 'service_stxwd6g',
-      'template_4j8gd9c',
-      // 'template_xewlvcq',
-      e.target,
-      'RNcltO2y1_wg4wyzM'
-    ).then(res => {
-      console.log(res)
-      if (res.text === 'OK') {
-        setFormData(initialFormData); toast.success('Your message as been sent succefully')
-      }
-      setLoading(false)
-
-    }).catch((err) => {
-      toast.error('Message sent failed')
-      setLoading(false)
-    });
-  };
-
-  // const handleSubmit = async (e) => {
+  // const handleSubmit = (e) => {
   //   e.preventDefault();
   //   setLoading(true);
-
-  //   try {
-  //     const res = await axios.post(
-  //       "https://bitsos-backend.onrender.com",
-  //       formData
-  //     );
-  //     console.log(res);
-  //     if (res.status === 200) {
-  //       // Assuming the server returns a status of 200 for success
-  //       const result = res.data;
-  //       toast.success(result.status);
-  //       console.log(result);
-  //       setFormData({
-  //         name: "",
-  //         country: "",
-  //         occupation: "",
-  //         phone: "", // Changed to string
-  //         email: "",
-  //         amount: "",
-  //         complaint: "",
-  //       });
-  //     } else {
-  //       // Handle non-success status codes
-  //       toast.error("Failed to submit the form. Please try again.");
+  //   emailjs.sendForm(
+  //     'service_0zft1aa',
+  //     // 'service_stxwd6g',
+  //     'template_4j8gd9c',
+  //     // 'template_xewlvcq',
+  //     e.target,
+  //     'RNcltO2y1_wg4wyzM'
+  //   ).then(res => {
+  //     console.log(res)
+  //     if (res.text === 'OK') {
+  //       setFormData(initialFormData); toast.success('Your message as been sent succefully')
   //     }
-  //   } catch (error) {
-  //     console.error(error);
-  //     toast.error(
-  //       "An error occurred while submitting the form. Please try again."
-  //     );
-  //   } finally {
-  //     setLoading(false);
-  //   }
+  //     setLoading(false)
+
+  //   }).catch((err) => {
+  //     toast.error('Message sent failed')
+  //     setLoading(false)
+  //   });
   // };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    try {
+      const res = await axios.post(
+        "https://bitsos-backend.onrender.com",
+        formData
+      );
+      console.log(res);
+      if (res.status === 200) {
+        // Assuming the server returns a status of 200 for success
+        const result = res.data;
+        toast.success(result.status);
+        console.log(result);
+        setFormData({
+          name: "",
+          country: "",
+          occupation: "",
+          phone: "", // Changed to string
+          email: "",
+          amount: "",
+          complaint: "",
+        });
+      } else {
+        // Handle non-success status codes
+        toast.error("Failed to submit the form. Please try again.");
+      }
+    } catch (error) {
+      console.error(error);
+      toast.error(
+        "An error occurred while submitting the form. Please try again."
+      );
+    } finally {
+      setLoading(false);
+    }
+  };
 
   const handleChange = (e) => {
     const { name, value } = e.target;
