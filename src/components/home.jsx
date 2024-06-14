@@ -6,12 +6,16 @@ import { AiOutlineCheck } from "react-icons/ai";
 import {
   FaChartLine,
   FaCoins,
+  FaEnvelope,
   FaFileAlt,
+  FaInstagram,
   FaMoneyBill,
   FaShieldAlt,
+  FaTelegram,
   FaThList,
   FaUser,
   FaWallet,
+  FaWhatsapp,
 } from "react-icons/fa";
 import { useState, useEffect } from "react";
 // import { useRef } from "react";
@@ -150,6 +154,29 @@ function Home() {
           </div>
           <div className="hero-">
             <img src={heroImage} className="heroimage" alt="" />
+            <span className="">
+              <NavLink to="https://api.whatsapp.com/send?phone=8562097916145&text=%20">
+                <span className="iconsocial">
+                  <FaWhatsapp size={35} color="#ffff" />
+                </span>
+              </NavLink>
+              <NavLink to="https://t.me/+79216482743">
+                <span className="iconsocial">
+                  <FaTelegram color="#ffff" size={35} />
+                </span>
+              </NavLink>
+              <NavLink to="https://instagram.com/cyber_helponline">
+                <span className="iconsocial">
+                  <FaInstagram size={35} color="#ffff" />
+                </span>
+              </NavLink>
+              <NavLink to="mailto:support@cyberhelponline.org">
+                <span className="iconsocial">
+                  <FaEnvelope size={35} color="#ffff" />
+                </span>
+              </NavLink>
+              {/* <NavLink to="#"><span className="iconsocial"><FaTwitter  size={32} color="white"/></span></NavLink> */}
+            </span>
             <img src={star1} alt="" className="topright" />
             <img src={star2} alt="" className="bottomlefty" />
             <img src={star3} alt="" className="bottomleft" />
@@ -179,7 +206,7 @@ function Home() {
           </div>
         </div> */}
         <div className="container lifePartners">
-          <h4>Our partners and supporters</h4>
+          <h4 style={{ color: 'black' }}>Our partners and supporters</h4>
           {/* PARTNERS */}
           <div className="partners-img">
             <img src={rakuten} alt="" />

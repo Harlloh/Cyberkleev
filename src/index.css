@@ -405,7 +405,7 @@ html {
   width: fit-content;
 }
 .partners {
-  background: #082161;
+  background: #ffffff;
   padding: 1.5rem 0;
   gap: 1rem;
 }
@@ -430,6 +430,16 @@ html {
 }
 .hero- {
   position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.hero- span{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap:1.5rem;
+  margin-top: 1rem;
+  z-index: 2
 }
 /* .topright {
   position: absolute;
@@ -1000,7 +1010,8 @@ footer {
   }
   .bottomleft {
     bottom: 0%;
-    left: 10%;
+    left: 65%;
+    z-index: -1;
   }
 
   .hersectcontainer h1 {
