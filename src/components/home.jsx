@@ -23,7 +23,7 @@ import galaxy from "../assets/galaxy.png";
 import trust from "../assets/trustwallet.png";
 import block from "../assets/blcokchain.png";
 import theblock from "../assets/theblock.webp";
-import heroImage from "../assets/iPhone 12 Pro (Wooden Hands).png";
+import heroImage from "../assets/hero-1.png";
 import star1 from "../assets/Star 4.png";
 import star2 from "../assets/Star 5.svg";
 import star3 from "../assets/Star 6.png";
@@ -384,9 +384,8 @@ function Home() {
               return (
                 <div
                   key={index}
-                  className={`carousel ${
-                    index === activeSlide ? "active" : ""
-                  }`}
+                  className={`carousel ${index === activeSlide ? "active" : ""
+                    }`}
                 >
                   <p>{testimony.content}</p>
                   <div className="author">
@@ -409,9 +408,8 @@ function Home() {
               return (
                 <div
                   key={index}
-                  className={`carousell ${
-                    index === activeSlide ? "active" : ""
-                  }`}
+                  className={`carousell ${index === activeSlide ? "active" : ""
+                    }`}
                 ></div>
               );
             })}

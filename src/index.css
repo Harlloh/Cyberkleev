@@ -120,7 +120,7 @@ h5 {
 }
 
 p {
-  color: #767799;
+  color: #b8b8c5;
   font-family: Inter;
 }
 .hswww {
@@ -347,7 +347,8 @@ header {
   align-items: center;
 }
 .hersectcontainer {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   /* flex-direction: column; */
   justify-content: center;
   align-items: center;
@@ -367,7 +368,7 @@ header {
   font-weight: 800;
 }
 .hersectcontainer p {
-  color: #767799;
+  /* color: #767799; */
 
   font-family: Inter;
   font-size: 1rem;
@@ -404,7 +405,7 @@ html {
   width: fit-content;
 }
 .partners {
-  background: #1d419d;
+  background: #082161;
   padding: 1.5rem 0;
   gap: 1rem;
 }
@@ -470,7 +471,7 @@ html {
 .visions p {
   padding: 10px;
   border-left: 5px solid #203d85;
-  color: #767799;
+  /* color: #767799; */
   font-family: Inter;
   font-size: 1rem;
   font-style: normal;
@@ -990,7 +991,7 @@ footer {
     text-align: center;
   }
   .hersectcontainer {
-    flex-direction: column;
+    grid-template-columns: 1fr;
     align-items: center;
     justify-content: center;
   }

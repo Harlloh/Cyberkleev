@@ -139,22 +139,22 @@ const App = () => {
                 <span>
                   <NavLink to="https://api.whatsapp.com/send?phone=8562097916145&text=%20">
                     <span className="iconsocial">
-                      <FaWhatsapp size={32} color="#12132A" />
+                      <FaWhatsapp size={45} color="#12132A" />
                     </span>
                   </NavLink>
                   <NavLink to="https://t.me/+79216482743">
                     <span className="iconsocial">
-                      <FaTelegram color="#12132A" size={32} />
+                      <FaTelegram color="#12132A" size={45} />
                     </span>
                   </NavLink>
                   <NavLink to="https://instagram.com/cyber_helponline">
                     <span className="iconsocial">
-                      <FaInstagram size={32} color="#12132A" />
+                      <FaInstagram size={45} color="#12132A" />
                     </span>
                   </NavLink>
                   <NavLink to="mailto:support@cyberhelponline.org">
                     <span className="iconsocial">
-                      <FaEnvelope size={32} color="#12132A" />
+                      <FaEnvelope size={45} color="#12132A" />
                     </span>
                   </NavLink>
                   {/* <NavLink to="#"><span className="iconsocial"><FaTwitter  size={32} color="white"/></span></NavLink> */}
@@ -206,7 +206,7 @@ const App = () => {
                   <p style={{ color: "black" }}>support@cyberhelponline.org</p>
                 </NavLink>
                 <button>
-                  <NavLink to="/contact">Contact</NavLink>
+                  <NavLink to="https://t.me/+79216482743">Contact</NavLink>
                 </button>
               </div>
             </div>
