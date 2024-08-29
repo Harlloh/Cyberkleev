@@ -63,7 +63,7 @@ function Contact() {
 
     try {
       const res = await axios.post(
-        "https://bitsos-backend-123.onrender.com",
+        "https://bitsos-backend-123-zigy.onrender.com",
         formData
       );
       console.log(res);
