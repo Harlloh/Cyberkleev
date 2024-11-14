@@ -527,7 +527,7 @@ html {
   flex-wrap: wrap;
 }
 .work {
-  border: 1px solid #c23893;
+  border: 1px solid #61274d;
   border-radius: 24px;
   height: 300px;
   width: 300px;
@@ -545,7 +545,7 @@ html {
   transition: 0.2s ease;
 }
 .work:hover {
-  background: #c23893;
+  background: #61274d;
 }
 .work a {
   color: white;
