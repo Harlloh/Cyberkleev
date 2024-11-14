@@ -32,6 +32,8 @@ import star1 from "../assets/Star 4.png";
 import star2 from "../assets/Star 5.svg";
 import star3 from "../assets/Star 6.png";
 import FAQ from "./faq";
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+
 
 function Home() {
   const testimonials = [
@@ -153,7 +155,20 @@ function Home() {
             </div>
           </div>
           <div className="hero-">
-            <img src={heroImage} className="heroimage" alt="" />
+            {/* <lottie-player
+              src="https://lottie.host/2d8d7429-25c2-4f55-9030-7685b715f4ac/pVOs6wbXoK.json"
+              background="transparent"
+              speed="1"
+              style={{ width: '500px', height: '500px' }}
+              loop
+              autoplay
+            ></lottie-player> */}
+            <DotLottieReact
+              src="https://lottie.host/2d8d7429-25c2-4f55-9030-7685b715f4ac/pVOs6wbXoK.json"
+              loop
+              autoplay
+            />
+            {/* <img src={heroImage} className="heroimage" alt="" /> */}
             <span className="">
               <NavLink to="https://api.whatsapp.com/send?phone=8562097916145&text=%20">
                 <span className="iconsocial">
