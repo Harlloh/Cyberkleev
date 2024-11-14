@@ -199,40 +199,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="partners">
-        {/* <div className="publications">
-          <p>Trusted by 100+ publications</p>
-          <div className="pubs">
-            <a href="https://www.theblock.co/post/134443/the-wild-adventures-of-a-father-son-duo-that-go-searc">
-              <img src={theblock} alt="" />
-            </a>
-            <a href="https://hypebeast.com/2021/9/bitcoin-wallet-hacker-chris-charlie-crypto-asset-recovery">
-            </a>
-            <a href="https://www.vice.com/en/article/5dgeqq/meet-the-father-and-son-team-breaking-into-crypto-wallets">
-              <img src="../assets/motherboard.webp" alt="" />
-            </a>
-            <a href="https://www.bbc.com/news/technology-60318946">BBC</a>
-            <a href="https://www.forbes.com/sites/waynerash/2022/12/28/crypto-asset-recovery-helps-confront-cryptocurremcys-greatest-fear--losing-your-password/?sh=6fee46a01827">
-              FORBES
-            </a>
-            <a href="https://currency.com/crypto-bounty-hunting">
-              CURRENCY.COM
-            </a>
-          </div>
-        </div> */}
-        <div className="container lifePartners">
-          <h4 style={{ color: 'black' }}>Our partners and supporters</h4>
-          {/* PARTNERS */}
-          <div className="partners-img">
-            <img src={rakuten} alt="" />
-            <img src={binance} alt="" />
-            <img src={caseware} alt="" />
-            <img src={galaxy} alt="" />
-            <img src={trust} alt="" />
-            <img src={block} alt="" />
-          </div>
-        </div>
-      </section>
+
       {/* <hr className="container"/> */}
 
       <section className="goalsect" id="goalsect">
@@ -277,6 +244,40 @@ function Home() {
                 <NavLink to="/contact">Contact us</NavLink>
               </button>
             </div>
+          </div>
+        </div>
+      </section>
+      <section className="partners">
+        {/* <div className="publications">
+          <p>Trusted by 100+ publications</p>
+          <div className="pubs">
+            <a href="https://www.theblock.co/post/134443/the-wild-adventures-of-a-father-son-duo-that-go-searc">
+              <img src={theblock} alt="" />
+            </a>
+            <a href="https://hypebeast.com/2021/9/bitcoin-wallet-hacker-chris-charlie-crypto-asset-recovery">
+            </a>
+            <a href="https://www.vice.com/en/article/5dgeqq/meet-the-father-and-son-team-breaking-into-crypto-wallets">
+              <img src="../assets/motherboard.webp" alt="" />
+            </a>
+            <a href="https://www.bbc.com/news/technology-60318946">BBC</a>
+            <a href="https://www.forbes.com/sites/waynerash/2022/12/28/crypto-asset-recovery-helps-confront-cryptocurremcys-greatest-fear--losing-your-password/?sh=6fee46a01827">
+              FORBES
+            </a>
+            <a href="https://currency.com/crypto-bounty-hunting">
+              CURRENCY.COM
+            </a>
+          </div>
+        </div> */}
+        <div className="container lifePartners">
+          <h4 style={{ color: 'black' }}>Our partners and supporters</h4>
+          {/* PARTNERS */}
+          <div className="partners-img">
+            <img src={rakuten} alt="" />
+            <img src={binance} alt="" />
+            <img src={caseware} alt="" />
+            <img src={galaxy} alt="" />
+            <img src={trust} alt="" />
+            <img src={block} alt="" />
           </div>
         </div>
       </section>

@@ -409,6 +409,7 @@ html {
   background: #ffffff;
   padding: 1.5rem 0;
   gap: 1rem;
+  margin: 2rem 0;
 }
 .lifePartners {
   display: flex;
