@@ -164,7 +164,7 @@ function Home() {
               autoplay
             ></lottie-player> */}
             <DotLottieReact
-              src="https://lottie.host/2d8d7429-25c2-4f55-9030-7685b715f4ac/pVOs6wbXoK.json"
+              src="https://lottie.host/0d91da13-edff-46eb-a479-4a0ecd71521c/T28MyXo87Z.json"
               loop
               autoplay
             />
