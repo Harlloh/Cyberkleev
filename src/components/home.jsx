@@ -87,6 +87,9 @@ function Home() {
     },
   ];
 
+  const width = window.innerWidth < 600 ? 350 : 300; // Adjust based on screen size
+  const height = window.innerWidth < 600 ? 300 : 250;
+
   // const containerRef = useRef(null);
   const [activeSlide, setActiveSlide] = useState(0);
 
@@ -167,27 +170,31 @@ function Home() {
               src="https://lottie.host/0d91da13-edff-46eb-a479-4a0ecd71521c/T28MyXo87Z.json"
               loop
               autoplay
+              // width={300} // Set the desired width
+              // height={250}
+              width={width}
+              height={height}
             />
             {/* <img src={heroImage} className="heroimage" alt="" /> */}
-            <span className="">
+            <span className="" style={{ marginTop: '3rem' }}>
               <NavLink to="https://api.whatsapp.com/send?phone=8562097916145&text=%20">
                 <span className="iconsocial">
-                  <FaWhatsapp size={35} color="#ffff" />
+                  <FaWhatsapp size={50} color="#ffff" />
                 </span>
               </NavLink>
               <NavLink to="https://t.me/+79216482743">
                 <span className="iconsocial">
-                  <FaTelegram color="#ffff" size={35} />
+                  <FaTelegram color="#ffff" size={50} />
                 </span>
               </NavLink>
               <NavLink to="https://instagram.com/cyber_helponline">
                 <span className="iconsocial">
-                  <FaInstagram size={35} color="#ffff" />
+                  <FaInstagram size={50} color="#ffff" />
                 </span>
               </NavLink>
               <NavLink to="mailto:support@cyberhelponline.org">
                 <span className="iconsocial">
-                  <FaEnvelope size={35} color="#ffff" />
+                  <FaEnvelope size={50} color="#ffff" />
                 </span>
               </NavLink>
               {/* <NavLink to="#"><span className="iconsocial"><FaTwitter  size={32} color="white"/></span></NavLink> */}
