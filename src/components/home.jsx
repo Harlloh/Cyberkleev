@@ -135,7 +135,7 @@ function Home() {
           <div className=" hersectcontainer-text">
             <span className="hs">hs</span>
             <h1 className={`herohead ${shouldAnimate ? "animate" : ""}`}>
-              Recover And Invest Your Crypto Assets
+              Recover And Reclaim Your Crypto Assets
             </h1>
 
             <p className={`heroparagraph ${shouldAnimate ? "animate" : ""}`}>
