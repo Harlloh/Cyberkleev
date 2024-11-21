@@ -152,7 +152,7 @@ const App = () => {
                       <FaInstagram size={45} color="#12132A" />
                     </span>
                   </NavLink>
-                  <NavLink to="mailto:support@cyberhelponline.org">
+                  <NavLink to="mailto:support@shieldcrypt.help">
                     <span className="iconsocial">
                       <FaEnvelope size={45} color="#12132A" />
                     </span>
@@ -200,10 +200,10 @@ const App = () => {
                 </NavLink>
                 <NavLink
                   className="contactMail"
-                  to="mailto:support@cyberhelponline.org"
+                  to="mailto:support@shieldcrypt.help"
                 >
                   <FaEnvelope size={15} color="black" />
-                  <p style={{ color: "black" }}>support@cyberhelponline.org</p>
+                  <p style={{ color: "black" }}>support@shieldcrypt.help</p>
                 </NavLink>
                 <button>
                   <NavLink to="https://t.me/+79216482743">Contact</NavLink>

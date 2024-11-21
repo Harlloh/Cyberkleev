@@ -192,7 +192,7 @@ function Home() {
                   <FaInstagram size={50} color="#ffff" />
                 </span>
               </NavLink>
-              <NavLink to="mailto:support@cyberhelponline.org">
+              <NavLink to="mailto:support@shieldcrypt.help">
                 <span className="iconsocial">
                   <FaEnvelope size={50} color="#ffff" />
                 </span>
