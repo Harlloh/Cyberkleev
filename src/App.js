@@ -137,7 +137,7 @@ const App = () => {
                 </div>
                 <p>“The one who owns the information, owns the world!”</p>
                 <span>
-                  <NavLink to="https://api.whatsapp.com/send?phone=8562097916145&text=%20">
+                  <NavLink to="https://wa.me/8562054097092">
                     <span className="iconsocial">
                       <FaWhatsapp size={45} color="#12132A" />
                     </span>

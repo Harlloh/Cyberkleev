@@ -177,7 +177,7 @@ function Home() {
             />
             {/* <img src={heroImage} className="heroimage" alt="" /> */}
             <span className="" style={{ marginTop: '3rem' }}>
-              <NavLink to="https://api.whatsapp.com/send?phone=8562097916145&text=%20">
+              <NavLink to="https://wa.me/8562054097092">
                 <span className="iconsocial">
                   <FaWhatsapp size={50} color="#ffff" />
                 </span>
