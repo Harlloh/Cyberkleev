@@ -79,13 +79,95 @@ function Home() {
     },
     {
       index: 6,
-      author: "Olivia Thompson",
+      author: "Ava Luna",
       content:
         "CyberHelp is the best in the business! Their expertise in cryptocurrency recovery is unmatched. They successfully recovered my stolen coins from a scammer.",
       location: "New York, USA",
       img_url: "../assets/aiony-haust-3TLl_97HNJo-unsplash.jpg",
     },
+    // Additional Testimonials
+    {
+      index: 7,
+      author: "Ethan Brown",
+      content:
+        "CyberHelp saved my business from a devastating cyber attack. Their quick response and effective solutions ensured that my data was secure again in no time.",
+      location: "Berlin, Germany",
+      img_url: "https://example.com/ethan-brown.jpg",
+    },
+    {
+      index: 8,
+      author: "Mia Garcia",
+      content:
+        "I was skeptical at first, but CyberHelp proved to be trustworthy and efficient. They helped me retrieve my hacked social media accounts and enhanced their security.",
+      location: "Madrid, Spain",
+      img_url: "https://example.com/mia-garcia.jpg",
+    },
+    {
+      index: 9,
+      author: "Lucas Martinez",
+      content:
+        "Excellent service from CyberHelp! They not only recovered my lost cryptocurrency but also provided valuable advice on how to prevent future incidents.",
+      location: "Mexico City, Mexico",
+      img_url: "https://example.com/lucas-martinez.jpg",
+    },
+    {
+      index: 10,
+      author: "Isabella Rodriguez",
+      content:
+        "CyberHelp's team is knowledgeable and professional. They helped me secure my online transactions and recover funds from a phishing scam.",
+      location: "Rome, Italy",
+      img_url: "https://example.com/isabella-rodriguez.jpg",
+    },
+    {
+      index: 11,
+      author: "Alexander Lee",
+      content:
+        "Outstanding experience with CyberHelp. They assisted me in retrieving my encrypted files after a ransomware attack and fortified my system against future threats.",
+      location: "Seoul, South Korea",
+      img_url: "https://example.com/alexander-lee.jpg",
+    },
+    {
+      index: 12,
+      author: "Emma Kim",
+      content:
+        "CyberHelp went above and beyond to help me recover my digital assets. Their dedication and expertise are truly commendable.",
+      location: "Vancouver, Canada",
+      img_url: "https://example.com/emma-kim.jpg",
+    },
+    {
+      index: 13,
+      author: "Michael Anderson",
+      content:
+        "Thanks to CyberHelp, I was able to regain access to my compromised email account. Their support team was responsive and effective.",
+      location: "Chicago, USA",
+      img_url: "https://example.com/michael-anderson.jpg",
+    },
+    {
+      index: 14,
+      author: "Charlotte Taylor",
+      content:
+        "CyberHelp provided exceptional service during a stressful time. They helped me recover sensitive information that was lost due to a hacking incident.",
+      location: "Amsterdam, Netherlands",
+      img_url: "https://example.com/charlotte-taylor.jpg",
+    },
+    {
+      index: 15,
+      author: "Daniel Harris",
+      content:
+        "I appreciate the professionalism of CyberHelp. They successfully traced the source of the attack and helped me recover my stolen cryptocurrency.",
+      location: "Dublin, Ireland",
+      img_url: "https://example.com/daniel-harris.jpg",
+    },
+    {
+      index: 16,
+      author: "Amelia Clark",
+      content:
+        "CyberHelp's expertise in cybersecurity is unparalleled. They helped secure my online accounts and recover funds lost to a fraudulent scheme.",
+      location: "Singapore",
+      img_url: "https://example.com/amelia-clark.jpg",
+    },
   ];
+
 
   const width = window.innerWidth < 600 ? 350 : 300; // Adjust based on screen size
   const height = window.innerWidth < 600 ? 300 : 250;
