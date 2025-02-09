@@ -7,9 +7,9 @@ const FAQ = () => {
 
   const faqData = [
     {
-      question: "What is CyberHelp?",
+      question: "What is ShieldCrypt?",
       answer:
-        "Cyberhelp is a specialised service provider that offers a combination of technical expertise and legal resources to help individuals and businesses recover lost, stolen, or inaccessible cryptocurrencies and assets. Our team works diligently to trace and recover stolen assets from hacked wallets or scam activities, restore access to lost wallets, and recover funds that were sent to the wrong address.",
+        "ShieldCrypt is a specialised service provider that offers a combination of technical expertise and legal resources to help individuals and businesses recover lost, stolen, or inaccessible cryptocurrencies and assets. Our team works diligently to trace and recover stolen assets from hacked wallets or scam activities, restore access to lost wallets, and recover funds that were sent to the wrong address.",
     },
     {
       question:
@@ -26,7 +26,7 @@ const FAQ = () => {
     {
       question: "Will my information and assets be kept confidential?",
       answer:
-        "At CyberHelp, we understand the importance of privacy and security when it comes to assets. We take all necessary precautions to protect your personal and financial information, and our team is composed of experienced professionals who are dedicated to providing you with the highest level of service and support. Your information and assets will be kept strictly confidential throughout the recovery process.",
+        "At ShieldCrypt, we understand the importance of privacy and security when it comes to assets. We take all necessary precautions to protect your personal and financial information, and our team is composed of experienced professionals who are dedicated to providing you with the highest level of service and support. Your information and assets will be kept strictly confidential throughout the recovery process.",
     },
   ];
 

@@ -20,12 +20,12 @@ import {
 import { useState, useEffect } from "react";
 // import { useRef } from "react";
 // import Preload from "./preload";
-import rakuten from "../assets/rakuten.png";
-import binance from "../assets/binance.png";
-import caseware from "../assets/caseware.png";
-import galaxy from "../assets/galaxy.png";
-import trust from "../assets/trustwallet.png";
-import block from "../assets/blcokchain.png";
+import bbc from "../assets/BBC_Logo_2021.svg";
+import theblockl from "../assets/the_block-removebg-preview.png";
+import currency from "../assets/currency-removebg-preview.png";
+import motherboard from "../assets/images__1_-removebg-preview.png";
+import forbes from "../assets/images__5_-removebg-preview.png";
+import hypebeast from "../assets/Hypebeast-Logo.svg";
 import theblock from "../assets/theblock.webp";
 import heroImage from "../assets/hero-1.png";
 import star1 from "../assets/Star 4.png";
@@ -41,7 +41,7 @@ function Home() {
       index: 1,
       author: "Jane Williams",
       content:
-        "I totally recommend CyberHelp hacking services. They are reliable ethical hackers. I was able to recover my lost bitcoin in an investment fraud.",
+        "I totally recommend ShieldCrypt hacking services. They are reliable ethical hackers. I was able to recover my lost bitcoin in an investment fraud.",
       location: "London, UK",
       img_url: "../assets/african-american-man-wearing-round-glasses.jpg",
     },
@@ -49,7 +49,7 @@ function Home() {
       index: 2,
       author: "Liam Johnson",
       content:
-        "I had a great experience with CyberHelp hacking services. Their team of experts helped me regain access to my compromised account and secured it from further threats.",
+        "I had a great experience with ShieldCrypt hacking services. Their team of experts helped me regain access to my compromised account and secured it from further threats.",
       location: "Sydney, Australia",
       img_url: "../assets/aiony-haust-3TLl_97HNJo-unsplash.jpg",
     },
@@ -57,7 +57,7 @@ function Home() {
       index: 3,
       author: "Sophia Martinez",
       content:
-        "Thanks to CyberHelp, I recovered my stolen funds. They are highly professional and provided excellent customer support throughout the recovery process.",
+        "Thanks to ShieldCrypt, I recovered my stolen funds. They are highly professional and provided excellent customer support throughout the recovery process.",
       location: "Toronto, Canada",
       img_url: "https://example.com/sophia-martinez.jpg",
     },
@@ -65,7 +65,7 @@ function Home() {
       index: 4,
       author: "Noah Davis",
       content:
-        "I highly recommend CyberHelp for their outstanding hacking services. They helped me recover important documents that were lost due to a security breach.",
+        "I highly recommend ShieldCrypt for their outstanding hacking services. They helped me recover important documents that were lost due to a security breach.",
       location: "Paris, France",
       img_url: "https://example.com/noah-davis.jpg",
     },
@@ -73,24 +73,24 @@ function Home() {
       index: 5,
       author: "Ava Wilson",
       content:
-        "CyberHelp is the best in the business! Their expertise in cryptocurrency recovery is unmatched. They successfully recovered my stolen coins from a scammer.",
+        "ShieldCrypt is the best in the business! Their expertise in cryptocurrency recovery is unmatched. They successfully recovered my stolen coins from a scammer.",
       location: "Tokyo, Japan",
       img_url: "https://example.com/ava-wilson.jpg",
     },
-    {
-      index: 6,
-      author: "Ava",
-      content:
-        "CyberHelp is the best in the business! Their expertise in cryptocurrency recovery is unmatched. They successfully recovered my stolen coins from a scammer.",
-      location: "New York, USA",
-      img_url: "../assets/aiony-haust-3TLl_97HNJo-unsplash.jpg",
-    },
+    // {
+    //   index: 6,
+    //   author: "Ava",
+    //   content:
+    //     "ShieldCrypt is the best in the business! Their expertise in cryptocurrency recovery is unmatched. They successfully recovered my stolen coins from a scammer.",
+    //   location: "New York, USA",
+    //   img_url: "../assets/aiony-haust-3TLl_97HNJo-unsplash.jpg",
+    // },
     // Additional Testimonials
     {
       index: 7,
       author: "Devin Watson",
       content:
-        "CyberHelp saved my business from a devastating cyber attack. Their quick response and effective solutions ensured that my data was secure again in no time.",
+        "ShieldCrypt saved my business from a devastating cyber attack. Their quick response and effective solutions ensured that my data was secure again in no time.",
       location: "Berlin, Germany",
       img_url: "https://example.com/ethan-brown.jpg",
     },
@@ -98,7 +98,7 @@ function Home() {
       index: 8,
       author: "Kira Sims",
       content:
-        "I was skeptical at first, but CyberHelp proved to be trustworthy and efficient. They helped me retrieve my hacked social media accounts and enhanced their security.",
+        "I was skeptical at first, but ShieldCrypt proved to be trustworthy and efficient. They helped me retrieve my hacked social media accounts and enhanced their security.",
       location: "Madrid, Spain",
       img_url: "https://example.com/mia-garcia.jpg",
     },
@@ -106,7 +106,7 @@ function Home() {
       index: 9,
       author: "Lucas Jose",
       content:
-        "Excellent service from CyberHelp! They not only recovered my lost cryptocurrency but also provided valuable advice on how to prevent future incidents.",
+        "Excellent service from ShieldCrypt! They not only recovered my lost cryptocurrency but also provided valuable advice on how to prevent future incidents.",
       location: "Mexico City, Mexico",
       img_url: "https://example.com/lucas-martinez.jpg",
     },
@@ -114,7 +114,7 @@ function Home() {
       index: 10,
       author: "Isabella Rodriguez",
       content:
-        "CyberHelp's team is knowledgeable and professional. They helped me secure my online transactions and recover funds from a phishing scam.",
+        "ShieldCrypt's team is knowledgeable and professional. They helped me secure my online transactions and recover funds from a phishing scam.",
       location: "Rome, Italy",
       img_url: "https://example.com/isabella-rodriguez.jpg",
     },
@@ -122,7 +122,7 @@ function Home() {
       index: 11,
       author: "Bert Dunn",
       content:
-        "Outstanding experience with CyberHelp. They assisted me in retrieving my encrypted files after a ransomware attack and fortified my system against future threats.",
+        "Outstanding experience with ShieldCrypt. They assisted me in retrieving my encrypted files after a ransomware attack and fortified my system against future threats.",
       location: "Seoul, South Korea",
       img_url: "https://example.com/alexander-lee.jpg",
     },
@@ -130,7 +130,7 @@ function Home() {
       index: 12,
       author: "Emma Kim",
       content:
-        "CyberHelp went above and beyond to help me recover my digital assets. Their dedication and expertise are truly commendable.",
+        "ShieldCrypt went above and beyond to help me recover my digital assets. Their dedication and expertise are truly commendable.",
       location: "Vancouver, Canada",
       img_url: "https://example.com/emma-kim.jpg",
     },
@@ -138,7 +138,7 @@ function Home() {
       index: 13,
       author: "Joel McCarthy",
       content:
-        "Thanks to CyberHelp, I was able to regain access to my compromised email account. Their support team was responsive and effective.",
+        "Thanks to ShieldCrypt, I was able to regain access to my compromised email account. Their support team was responsive and effective.",
       location: "Chicago, USA",
       img_url: "https://example.com/michael-anderson.jpg",
     },
@@ -146,7 +146,7 @@ function Home() {
       index: 14,
       author: "Aiden Carver",
       content:
-        "CyberHelp provided exceptional service during a stressful time. They helped me recover sensitive information that was lost due to a hacking incident.",
+        "ShieldCrypt provided exceptional service during a stressful time. They helped me recover sensitive information that was lost due to a hacking incident.",
       location: "Amsterdam, Netherlands",
       img_url: "https://example.com/charlotte-taylor.jpg",
     },
@@ -154,7 +154,7 @@ function Home() {
       index: 15,
       author: "Charlotte Puckett",
       content:
-        "I appreciate the professionalism of CyberHelp. They successfully traced the source of the attack and helped me recover my stolen cryptocurrency.",
+        "I appreciate the professionalism of ShieldCrypt. They successfully traced the source of the attack and helped me recover my stolen cryptocurrency.",
       location: "Dublin, Ireland",
       img_url: "https://example.com/daniel-harris.jpg",
     },
@@ -162,7 +162,7 @@ function Home() {
       index: 16,
       author: "Trany Ellis",
       content:
-        "CyberHelp's expertise in cybersecurity is unparalleled. They helped secure my online accounts and recover funds lost to a fraudulent scheme.",
+        "ShieldCrypt's expertise in cybersecurity is unparalleled. They helped secure my online accounts and recover funds lost to a fraudulent scheme.",
       location: "Singapore",
       img_url: "https://example.com/amelia-clark.jpg",
     },
@@ -221,10 +221,7 @@ function Home() {
             </h1>
 
             <p className={`heroparagraph ${shouldAnimate ? "animate" : ""}`}>
-              We provide cryptocurrency services, including mining, hacking, and
-              asset recovery for scam victims. Our experienced team helps you
-              reclaim stolen assets and offers investment guidance for higher
-              returns. Contact us for assistance
+              Reclaim your stolen crypto, ensure secure mining, and invest with confidence—let our experts guide you every step of the way
             </p>
             <div className="herobu">
               <button id="herobutton">
@@ -258,7 +255,7 @@ function Home() {
               height={height}
             />
             {/* <img src={heroImage} className="heroimage" alt="" /> */}
-            <span className="" style={{ marginTop: '3rem' }}>
+            <span className="" style={{ marginTop: '7rem' }}>
               <NavLink to="https://wa.me/8562054097092">
                 <span className="iconsocial">
                   <FaWhatsapp size={50} color="#ffff" />
@@ -297,7 +294,7 @@ function Home() {
             About Us
           </h2>
           <p id="goalparaph" className={`${shouldAnimate ? "animate" : ""}`}>
-            For over 5 years, CyberHelp has established itself as a prominent
+            For over 5 years, ShieldCrypt has established itself as a prominent
             platform for recovery and investment services. Our unwavering
             commitment to providing individuals with effective solutions to
             their grievances, including those pertaining to cryptocurrency, has
@@ -338,15 +335,27 @@ function Home() {
       </section>
       <section className="partners">
         <div className="container lifePartners">
-          <h4 style={{ color: 'black' }}>Our partners and supporters</h4>
+          {/* <h4 style={{ color: 'black' }}>Our partners and supporters</h4> */}
           {/* PARTNERS */}
           <div className="partners-img">
-            <img src={rakuten} alt="" />
-            <img src={binance} alt="" />
-            <img src={caseware} alt="" />
-            <img src={galaxy} alt="" />
-            <img src={trust} alt="" />
-            <img src={block} alt="" />
+            <a href="https://www.bbc.com/news/technology-60318946">
+              <img src={bbc} alt="" />
+            </a>
+            <a href="https://www.theblock.co/post/134443/the-wild-adventures-of-a-father-son-duo-that-go-searching-for-stuck-bitcoin">
+              <img src={theblockl} alt="" />
+            </a>
+            <a href="https://currency.com/crypto">
+              <img src={currency} alt="" />
+            </a>
+            <a href="https://www.vice.com/en/article/meet-the-father-and-son-team-breaking-into-crypto-wallets/">
+              <img src={motherboard} alt="" />
+            </a>
+            <a href="https://www.forbes.com/sites/waynerash/2022/12/28/crypto-asset-recovery-helps-confront-cryptocurremcys-greatest-fear--losing-your-password/?sh=6fee46a01827">
+              <img src={forbes} alt="" />
+            </a>
+            <a href="https://hypebeast.com/2021/9/bitcoin-wallet-hacker-chris-charlie-crypto-asset-recovery">
+              <img src={hypebeast} alt="" />
+            </a>
           </div>
         </div>
       </section>

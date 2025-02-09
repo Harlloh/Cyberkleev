@@ -19,10 +19,10 @@ function About() {
                 </NavLink>
                 <NavLink to="#">
                     <img src={Icon} alt="" />
-                    <p>cyberhelp119@gmail.com</p>
+                    <p>support@shieldcrypt.help</p>
                 </NavLink>
                 <div className="copyright">
-                    <p>CyberHelp© Copyright 2023. All rights reserved</p>
+                    <p>ShieldCrypt © Copyright 2023. All rights reserved</p>
                 </div>
             </div>
         </footer>

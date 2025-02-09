@@ -62,7 +62,7 @@ const App = () => {
                 <NavLink to="/">
                   {/* <img src={Icon} alt="" /> */}
                   <FaShieldAlt color="#AD60A9" size="2rem" />
-                  <h1>Cyberhelp</h1>
+                  <h1>ShieldCrypt</h1>
                 </NavLink>
               </div>
               <span className="ham">
@@ -132,7 +132,7 @@ const App = () => {
                 <div className="logo">
                   <NavLink to="/">
                     <FaShieldAlt color="#AD60A9" size="2rem" />
-                    <h1 className="footheader">Cyberhelp</h1>
+                    <h1 className="footheader">ShieldCrypt</h1>
                   </NavLink>
                 </div>
                 <p>“The one who owns the information, owns the world!”</p>
@@ -212,7 +212,7 @@ const App = () => {
             </div>
           </footer>
           <div className="copyright">
-            <p>CyberHelp_recovery© Copyright 2023. All rights reserved</p>
+            <p>ShieldCrypt © Copyright 2025. All rights reserved</p>
           </div>
         </div>
       )}
