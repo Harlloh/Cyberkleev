@@ -33,6 +33,12 @@ import star2 from "../assets/Star 5.svg";
 import star3 from "../assets/Star 6.png";
 import FAQ from "./faq";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+import rakuten from "../assets/rakuten.png";
+import binance from "../assets/binance.png";
+import caseware from "../assets/caseware.png";
+import galaxy from "../assets/galaxy.png";
+import trust from "../assets/trustwallet.png";
+import block from "../assets/blcokchain.png";
 
 
 function Home() {
@@ -338,21 +344,29 @@ function Home() {
           {/* <h4 style={{ color: 'black' }}>Our partners and supporters</h4> */}
           {/* PARTNERS */}
           <div className="partners-img">
+            <img src={trust} alt="" />
             <a href="https://www.bbc.com/news/technology-60318946">
               <img src={bbc} alt="" />
             </a>
+            <img src={rakuten} alt="" />
+
             <a href="https://www.theblock.co/post/134443/the-wild-adventures-of-a-father-son-duo-that-go-searching-for-stuck-bitcoin">
               <img src={theblockl} alt="" />
             </a>
             <a href="https://currency.com/crypto">
               <img src={currency} alt="" />
             </a>
+            <img src={binance} alt="" />
+            <img src={block} alt="" />
             <a href="https://www.vice.com/en/article/meet-the-father-and-son-team-breaking-into-crypto-wallets/">
               <img src={motherboard} alt="" />
             </a>
+            <img src={galaxy} alt="" />
+
             <a href="https://www.forbes.com/sites/waynerash/2022/12/28/crypto-asset-recovery-helps-confront-cryptocurremcys-greatest-fear--losing-your-password/?sh=6fee46a01827">
               <img src={forbes} alt="" />
             </a>
+            <img src={caseware} alt="" />
             <a href="https://hypebeast.com/2021/9/bitcoin-wallet-hacker-chris-charlie-crypto-asset-recovery">
               <img src={hypebeast} alt="" />
             </a>
