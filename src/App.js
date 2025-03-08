@@ -147,11 +147,11 @@ const App = () => {
                       <FaTelegram color="#12132A" size={45} />
                     </span>
                   </NavLink>
-                  <NavLink to="https://instagram.com/cyber_helponline">
+                  {/* <NavLink to="https://instagram.com/cyber_helponline">
                     <span className="iconsocial">
                       <FaInstagram size={45} color="#12132A" />
                     </span>
-                  </NavLink>
+                  </NavLink> */}
                   <NavLink to="mailto:support@shieldcrypt.help">
                     <span className="iconsocial">
                       <FaEnvelope size={45} color="#12132A" />

@@ -9,7 +9,7 @@ function About() {
                 <div className="socials">
                     <NavLink to="https://wa.me/8562054097092"><FaWhatsapp /></NavLink>
                     <NavLink to="#">Telegram</NavLink>
-                    <NavLink to="#">Instagram</NavLink>
+                    {/* <NavLink to="#">Instagram</NavLink> */}
                     <NavLink to="#">Twitter</NavLink>
                 </div>
                 <cite>“The one who owns the information, owns the world!”</cite>

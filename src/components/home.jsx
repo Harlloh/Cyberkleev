@@ -272,11 +272,11 @@ function Home() {
                   <FaTelegram color="#ffff" size={50} />
                 </span>
               </NavLink>
-              <NavLink to="https://instagram.com/cyber_helponline">
+              {/* <NavLink to="https://instagram.com/cyber_helponline">
                 <span className="iconsocial">
                   <FaInstagram size={50} color="#ffff" />
                 </span>
-              </NavLink>
+              </NavLink> */}
               <NavLink to="mailto:support@shieldcrypt.help">
                 <span className="iconsocial">
                   <FaEnvelope size={50} color="#ffff" />
