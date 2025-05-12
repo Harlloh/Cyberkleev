@@ -134,8 +134,8 @@ function Contact() {
 
           <div className="inputcontainer">
             <input
-              type="text"
-              placeholder="Occupation"
+              type="number"
+              placeholder="Whatsapp number"
               name="occupation"
               required
               value={formData.occupation}
