@@ -132,7 +132,7 @@ function Contact() {
             />
           </div>
 
-          <div className="inputcontainer">
+          {/* <div className="inputcontainer">
             <input
               type="number"
               placeholder="Whatsapp number"
@@ -140,6 +140,22 @@ function Contact() {
               required
               value={formData.occupation}
               onChange={handleChange}
+            /> */}
+          {/* </div> */}
+          <div className="inputcontainer">
+            <PhoneInput
+              name="occupation"
+              placeholder="Enter Whatsapp number"
+              value={formData.occupation}
+              defaultCountry="US"
+              onChange={(value) =>
+                setFormData((prevData) => ({
+                  ...prevData,
+                  occupation: value, // Update the phone field with the new value
+                }))
+              }
+              international
+              countryCallingCodeEditable={true}
             />
           </div>
 
@@ -200,9 +216,9 @@ function Contact() {
             {loading ? "sending..." : "Send Complaint"}
           </button>
         </form>
-      </div>
+      </div >
       <ToastContainer />
-    </div>
+    </div >
   );
 }
 
