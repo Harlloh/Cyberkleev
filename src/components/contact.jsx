@@ -142,12 +142,13 @@ function Contact() {
               onChange={handleChange}
             /> */}
           {/* </div> */}
+
           <div className="inputcontainer">
             <PhoneInput
               name="occupation"
               placeholder="Enter Whatsapp number"
               value={formData.occupation}
-              defaultCountry="US"
+              // defaultCountry="US"
               onChange={(value) =>
                 setFormData((prevData) => ({
                   ...prevData,
@@ -155,7 +156,7 @@ function Contact() {
                 }))
               }
               international
-              countryCallingCodeEditable={true}
+            // countryCallingCodeEditable={true}
             />
           </div>
 
@@ -164,7 +165,7 @@ function Contact() {
               name="phone"
               placeholder="Enter phone number"
               value={formData.phone}
-              defaultCountry="US"
+              // defaultCountry="US"
               onChange={(value) =>
                 setFormData((prevData) => ({
                   ...prevData,
@@ -172,7 +173,7 @@ function Contact() {
                 }))
               }
               international
-              countryCallingCodeEditable={true}
+            // countryCallingCodeEditable={true}
             />
           </div>
           <div className="inputcontainer">
